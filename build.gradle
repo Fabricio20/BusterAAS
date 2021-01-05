@@ -8,7 +8,7 @@ plugins {
 group 'net.notfab'
 version '1.0'
 
-mainClassName("net.notfab.busterass.Start")
+mainClassName = "net.notfab.busterass.Start"
 
 sourceCompatibility = targetCompatibility = 11
 
@@ -46,6 +46,9 @@ repositories {
 dependencies {
     compile group: 'org.seleniumhq.selenium', name: 'selenium-java', version: '3.141.59'
     compile group: 'org.seleniumhq.selenium', name: 'selenium-support', version: '3.141.59'
+
+    compile group: 'io.undertow', name: 'undertow-core', version: '2.0.28.Final'
+    compile group: 'org.json', name: 'json', version: '20190722'
 
 //    compile group: 'org.seleniumhq.selenium', name: 'selenium-opera-driver', version: '3.141.59'
 //    compile group: 'org.seleniumhq.selenium', name: 'selenium-firefox-driver', version: '3.141.59'

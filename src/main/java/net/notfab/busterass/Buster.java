@@ -99,7 +99,7 @@ public class Buster implements Runnable {
         } catch (Exception ex) {
             ex.printStackTrace();
         }
-        driver.close();
+        driver.quit();
     }
 
 }
